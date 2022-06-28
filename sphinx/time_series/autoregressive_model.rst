@@ -1,8 +1,9 @@
 Autoregressive Model (AR)
 =========================
 
-As mentioned in the section on `Analyzing Time Series <http://krspiced.pythonanywhere.com/chapters/project_temperature/analyzing_time_series/README.html>`__
-we are from now on mainly concerned with the Remainder of the time series after modelling the trend and seasonality.
+As mentioned in Analyzing Time Series
+we are from now on mainly concerned with the Remainder
+of the time series after modelling the trend and seasonality.
 
 .. figure:: ./images/remainder.png
 
@@ -133,48 +134,3 @@ our AR(P) model.
    print(plot_pacf(y))
 
 .. figure:: pacf_plot.png
-
-.. container:: banner challenge1
-
-   Examine Partial Autocorrelations
-
-.. highlights::
-
-   Plot the partial autocorrelation of:
-
-   -  random noise
-   -  a random walk
-   -  a perfect linear function
-   -  a periodic function (:math:`sin(x)` with x in degrees)
-
-   What do you observe?
-
-.. _ar_model:
-
-.. container:: banner milestone
-
-   Train an AR model
-
-.. highlights::
-
-   Train a Linear Regression model on the `flights` dataset.
-
-   As input features, create different time lags of the original variable of interest (passengers or temperature) or of the remainder:
-
-   .. code::
-
-      flights['lag1'] = flights['passengeres'].shift(1)
-
-   or
-
-   .. code::
-
-      flights['lag1'] = flights['remainder'].shift(1)
-
-   Include that lag into your linear regression model of trend and seasonality and plot the resulting
-   predictions. Going forward it will be easier for you from a workflow perspective to include lags of the original variable of interest
-   rather than of the remainder.
-
-   **But be aware that in our case the question of how many lags to include should be answered by
-   analyzing the remainder, not the original variable. This is because in the remainder we got rid of effects of trend and seasonality
-   and can observe the pure effect of time dependence.**

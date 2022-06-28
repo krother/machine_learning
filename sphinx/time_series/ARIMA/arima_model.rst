@@ -114,24 +114,10 @@ If we are dealing with an ARMA process we will not see any cut offs and it will 
 
 In that case we have to look at evaluation metrics to decide which model to use.
 
-.. container:: banner challenge1
 
-   Examine (Partial) Autocorrelations
+.. container:: banner reading
 
-.. highlights::
-
-   Plot both, the autocorrelation and the partial autocorrelation of:
-
-   -  random noise
-   -  a random walk
-   -  a perfect linear function
-   -  a periodic function (:math:`sin(x)` with x in degrees)
-
-   What do you observe?
-
-.. container:: banner challenge1
-
-   Use AutoARIMA
+   Further Reading
 
 .. highlights::
 

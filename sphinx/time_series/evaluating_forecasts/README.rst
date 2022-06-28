@@ -10,7 +10,7 @@ Evaluating Forecasts
 
 .. highlights::
 
-  Collect all evaluation metrics for regression problems that you know.
+  Enumerate evaluation metrics for regression problems that you know.
 
 
 Goal of Evaluation
@@ -55,18 +55,6 @@ where *k* is the number of estimated parameters in the model and :math:`\hat{L}`
 - **k** penalizes overfitting
 - The value of the likelihood function penalizes underfitting
 
-
-
-.. container:: banner challenge1
-
-   Evaluate the temperature data
-
-.. highlights::
-
-   Apply cross validation on the temperature data.
-
-
-----
 
 .. container:: banner reading
 
