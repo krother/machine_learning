@@ -1,0 +1,20 @@
+certifi==2018.4.16
+chardet==3.0.4
+idna==2.7
+requests==2.19.1
+urllib3==1.23
+recommonmark==0.4.0
+folium ==0.5.0
+ipython
+jupyter
+matplotlib >=2.2.2
+numpy >=1.14.2
+pandas >=0.22.0
+scikit-learn >=0.19.1
+scipy >=1.0.1
+xlrd >=1.1.0
+recommonmark ==0.4.0
+Sphinx ==4.3.2
+nbsphinx==0.8.1 
+sphinxcontrib-mermaid>=0.6.3
+git+https://github.com/krother/sphinxcontrib.youtube.git

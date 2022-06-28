@@ -1,0 +1,259 @@
+blockquote.highlights {
+  background-color: #eeeeee;
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+div.banner {
+  font-size: 2.5em;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  background-size: 80px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+div.recap {
+  color: white;
+  background-color: green;
+  background-image: url("recycle.svg");
+}
+
+div.warmup {
+  color: black;
+  background-color: #dc7232;
+  background-image: url("chili.svg");
+}
+
+div.challenge1 {
+  color: white;
+  background-color: darkblue;
+  background-image: url("bonus1.png");
+}
+
+div.challenge2 {
+  color: white;
+  background-color: darkblue;
+  background-image: url("bonus2.png");
+}
+
+div.challenge3 {
+  color: white;
+  background-color: darkblue;
+  background-image: url("bonus3.png");
+}
+
+div.linux {
+  color: black;
+  background-color: lightblue;
+  background-image: url("tux.png");
+}
+
+div.question {
+  color: black;
+  background-color: orange;
+  background-image: url("question.svg");
+}
+
+div.db {
+  color: white;
+  background-color: darkblue;
+  background-image: url("slonik.svg");
+}
+
+div.python {
+  color: black;
+  background-color: orange;
+  background-image: url("python.png");
+}
+
+div.goal {
+  color: white;
+  background-color: darkblue;
+  background-image: url("goal.png");
+}
+
+div.milestone {
+  color: white;
+  background-color: darkblue;
+  background-image: url("milestone.png");
+}
+
+div.reading {
+  color: white;
+  background-color: #6e0096;
+  background-image: url("book.png");
+}
+
+div.debug {
+  color: black;
+  background-color: #dd6666;
+  background-image: url("bug.svg");
+}
+
+div.docker {
+  color: darkblue;
+  background-color: #d2eafa;
+  background-image: url("docker.svg");
+}
+
+div.git {
+  color: white;
+  background-color: #696969;
+  background-image: url("git_logo.svg");
+}
+
+div.math-logo {
+  color: black;
+  background-color: #7bb661;
+  background-image: url("math.svg");
+}
+
+.highlights {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-right: 60px;
+}
+
+div.bonus-key {
+  color: black;
+  background-color: whitesmoke;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 18px;
+  border: 2px solid black;
+  padding: 2%;
+  text-align: center;
+}
+
+div.bonus-key p {
+  text-align: center;
+}
+
+div.bonus-key p:last-child {
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* TODO: refactor this later to avoid repetetive code */
+div.subheader {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 2%;
+  text-align: center;
+}
+
+
+div.bodywrapper blockquote {
+        margin: 0 ;
+    }
+
+div.toctree-wrapper ul {
+    margin: 0 ;
+    padding-left: 0px ;
+}
+
+div.tune li, div.tune ul {
+    transition-duration: 0.2s;
+}
+
+div.tune li.toctree-l1 {
+    padding: 5px 0 0;
+    list-style-type: none;
+    font-size: 150% ;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    font-weight: normal;
+    color: #20435c;
+    margin-left: 0;
+    margin-bottom: 1.2em;
+    font-weight: bold;
+    }
+
+div.tune li.toctree-l1 a {
+    padding: 0 0 0 10px ;
+    color: #314F64 ;
+}
+
+div.tune li.toctree-l2 {
+    padding: 0.25em 0 0.25em 0 ;
+    list-style-type: none;
+    background-color: #FFFFFF;
+    font-size: 85% ;
+    font-weight: normal;
+}
+
+div.tune li.toctree-l2 ul {
+    padding-left: 40px ;
+}
+
+
+div.tune li.toctree-l2:before {
+    content: attr(data-content) ;
+    font-size: 85% ;
+    color: #777 ;
+    display: inline-block;
+    width: 10px;
+}
+
+div.tune li.toctree-l3 {
+    font-size: 75% ;
+    list-style-type: square;
+    font-weight: normal;
+}
+
+div.tune li.toctree-l4 {
+    font-size: 85% ;
+    list-style-type: circle;
+    font-weight: normal;
+}
+
+div.preface li.toctree-l1 {
+    font-weight: bold;
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 10px;
+    display: inline;
+}
+
+div.preface li.toctree-l2 {
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-left: 1.5em;
+    display: inline;
+}
+
+div.sidebar {
+    width: 25ex ;
+}
+
+@media 	only screen and (max-width: 1080px) and (-webkit-min-device-pixel-ratio: 2.5), (max-width: 70ex) {
+    div.sidebar {
+        width: 79%;
+        padding-left: 5%;
+        font-size: 80%;
+        margin-left: auto;
+        margin-right: 1px;
+    }
+}
+
+@media (max-width: 1324px) {
+    div.sphinxsidebar {
+        display: none;
+    }
+}

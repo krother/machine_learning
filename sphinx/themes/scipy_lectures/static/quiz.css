@@ -1,0 +1,65 @@
+
+#quiz_section {
+  text-align: center;
+  background-image: none;
+  background-color: #dddddd;
+  padding-top: 30px;
+}
+
+#question {
+  color: black;
+  font-size: 1.5em;
+  text-decoration: bold;
+  text-align: left;
+  padding: 20px;
+}
+
+.quiz_question {
+  text-align: left;
+  width: 75%;
+}
+
+label{
+  display: inline;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+#start, #next {
+  text-align: center;
+  display: inline-block;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+#result {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #036;
+}
+
+input[name="option"] {
+  float:left;
+
+}
+
+#form div{
+  margin:auto;
+  max-width: 605px;
+}
+
+#container {
+  text-align: center;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #79BD9A;
+    text-decoration: none !important;
+    color: white !important;
+}

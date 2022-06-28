@@ -19,3 +19,4 @@ q.log
 *.ipynb_checkpoints
 notebooks/models/*
 notebooks/data/creditcard.csv
+sphinx/_build/*

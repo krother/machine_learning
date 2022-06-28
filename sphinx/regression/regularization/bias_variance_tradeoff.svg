@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="90mm"
+   viewBox="0 0 210 90"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="bias_variance_tradeoff.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#eeeeee"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="269.24892"
+     inkscape:cy="333.24788"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-207)">
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.3482939;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 25.618266,236.77717 -7.296232,7.34211 -7.295685,7.34115 7.295685,7.34115 7.296232,7.34115 v -8.04637 H 185.54312 v 8.04637 l 7.29568,-7.34115 7.29623,-7.34115 -7.29623,-7.34115 -7.29568,-7.34211 v 8.04733 H 25.618266 Z"
+       id="path123"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.943085"
+       y="239.8246"
+       id="text126"><tspan
+         sodipodi:role="line"
+         x="33.943085"
+         y="239.8246"
+         id="tspan124"
+         style="stroke-width:0.26458332"><tspan
+           x="33.943085"
+           y="239.8246"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan122">low bias</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.943085"
+       y="232.06752"
+       id="text120"><tspan
+         sodipodi:role="line"
+         x="33.943085"
+         y="232.06752"
+         id="tspan118"
+         style="stroke-width:0.26458332"><tspan
+           x="33.943085"
+           y="232.06752"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan116">high variance</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.943085"
+       y="224.85751"
+       id="text114"><tspan
+         sodipodi:role="line"
+         x="33.943085"
+         y="224.85751"
+         id="tspan112"
+         style="stroke-width:0.26458332"><tspan
+           x="33.943085"
+           y="224.85751"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan110">complex model</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="153.64932"
+       y="239.8246"
+       id="text108"><tspan
+         sodipodi:role="line"
+         x="153.64932"
+         y="239.8246"
+         id="tspan106"
+         style="stroke-width:0.26458332"><tspan
+           x="153.64932"
+           y="239.8246"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan104">high bias</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="143.58414"
+       y="232.06752"
+       id="text102"><tspan
+         sodipodi:role="line"
+         x="143.58414"
+         y="232.06752"
+         id="tspan100"
+         style="stroke-width:0.26458332"><tspan
+           x="143.58414"
+           y="232.06752"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan98">low variance</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="141.56117"
+       y="224.85751"
+       id="text96"><tspan
+         sodipodi:role="line"
+         x="141.56117"
+         y="224.85751"
+         id="tspan94"
+         style="stroke-width:0.26458332"><tspan
+           x="141.56117"
+           y="224.85751"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan92">simple model</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.943085"
+       y="282.53592"
+       id="text90"><tspan
+         sodipodi:role="line"
+         x="33.943085"
+         y="282.53592"
+         id="tspan88"
+         style="stroke-width:0.26458332"><tspan
+           x="33.943085"
+           y="282.53592"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan86">more parameters</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.943085"
+       y="274.77881"
+       id="text84"><tspan
+         sodipodi:role="line"
+         x="33.943085"
+         y="274.77881"
+         id="tspan82"
+         style="stroke-width:0.26458332"><tspan
+           x="33.943085"
+           y="274.77881"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan80">less data</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.943085"
+       y="267.56882"
+       id="text78"><tspan
+         sodipodi:role="line"
+         x="33.943085"
+         y="267.56882"
+         id="tspan76"
+         style="stroke-width:0.26458332"><tspan
+           x="33.943085"
+           y="267.56882"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan74">less regularization</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="128.8777"
+       y="282.53592"
+       id="text72"><tspan
+         sodipodi:role="line"
+         x="128.8777"
+         y="282.53592"
+         id="tspan70"
+         style="stroke-width:0.26458332"><tspan
+           x="128.8777"
+           y="282.53592"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan68">fewer parameters</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="150.40266"
+       y="274.77881"
+       id="text66"><tspan
+         sodipodi:role="line"
+         x="150.40266"
+         y="274.77881"
+         id="tspan64"
+         style="stroke-width:0.26458332"><tspan
+           x="150.40266"
+           y="274.77881"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan62">more data</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="124.09041"
+       y="267.56882"
+       id="text60"><tspan
+         sodipodi:role="line"
+         x="124.09041"
+         y="267.56882"
+         id="tspan58"
+         style="stroke-width:0.26458332"><tspan
+           x="124.09041"
+           y="267.56882"
+           style="font-size:5.64444447px;stroke-width:0.26458332"
+           id="tspan56">more regularization</tspan></tspan></text>
+    <text
+       id="text853"
+       y="254.03661"
+       x="33.943085"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;font-size:7.05555534px;fill:#ffffff;stroke:#ffffff;stroke-width:0.26458332"
+         id="tspan851"
+         y="254.03661"
+         x="33.943085"
+         sodipodi:role="line">overfitting</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="131.74817"
+       y="254.03661"
+       id="text857"><tspan
+         sodipodi:role="line"
+         x="131.74817"
+         y="254.03661"
+         id="tspan855"
+         style="font-weight:bold;font-size:7.05555534px;fill:#ffffff;stroke:#ffffff;stroke-width:0.26458332">underfitting</tspan></text>
+  </g>
+</svg>

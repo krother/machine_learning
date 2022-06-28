@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg98"
+   width="1000"
+   height="1000"
+   viewBox="0 0 1000 1000"
+   sodipodi:docname="goal.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/kristian/projects/datascience_source/_static/goal.png"
+   inkscape:export-xdpi="16.692114"
+   inkscape:export-ydpi="16.692114">
+  <metadata
+     id="metadata104">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs102" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1613"
+     inkscape:window-height="995"
+     id="namedview100"
+     showgrid="false"
+     inkscape:zoom="0.51820827"
+     inkscape:cx="396.60104"
+     inkscape:cy="475.82811"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg98"
+     inkscape:pagecheckerboard="true" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:59.11209869px;line-height:1.25;font-family:Andika;-inkscape-font-specification:'Andika Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.4778024"
+     x="265.60718"
+     y="928.38458"
+     id="text22"><tspan
+       sodipodi:role="line"
+       x="265.60718"
+       y="928.38458"
+       id="tspan20"
+       style="stroke-width:1.4778024"><tspan
+         x="265.60718"
+         y="928.38458"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:177.33630371px;font-family:Andika;-inkscape-font-specification:'Andika Bold';fill:#ffffff;stroke-width:1.4778024"
+         id="tspan18">GOAL</tspan></tspan></text>
+  <circle
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:30.78918839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path1410"
+     cx="499.22696"
+     cy="389.89093"
+     r="270.45572" />
+  <circle
+     r="153.60266"
+     cy="389.89093"
+     cx="499.22696"
+     id="circle1412"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:30.78918839;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:5.19999981;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:30.78918839;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 499.22697,46.399699 V 733.38218"
+     id="path1414"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path1416"
+     d="M 842.7182,389.89093 H 155.73573"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:30.78918839;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+</svg>
