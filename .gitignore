@@ -1,6 +1,4 @@
 .vscode
-spiced/*
-machine-learning-flashcards.zip
 data/*
 _build/*
 .ipynb_checkpoints/*
@@ -19,4 +17,4 @@ q.log
 *.ipynb_checkpoints
 notebooks/models/*
 notebooks/data/creditcard.csv
-sphinx/_build/*
+build/*
