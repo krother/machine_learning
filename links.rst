@@ -17,6 +17,7 @@ Machine Learning Courses
 Books
 -----
 
+- `Data Science from Scratch <http://shop.oreilly.com/product/0636920033400.do>`__ - Joel Grus
 -  `The Elements of Statistical Learning <https://web.stanford.edu/~hastie/Papers/ESLII.pdf>`__ – Hastie, Tibshirani, Friedman; an excellent deep dive book
 -  `Deep Learning <https://www.deeplearningbook.org/>`__ – by Goodfellow, Bengio, Courville
 -  `Algorithms <http://jeffe.cs.illinois.edu/teaching/algorithms/>`__
