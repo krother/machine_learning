@@ -1,6 +1,8 @@
 Machine Learning
 ================
 
+.. image:: title.png
+
 Goal
 ----
 
