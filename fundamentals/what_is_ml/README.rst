@@ -71,27 +71,29 @@ Random forest               1995
 =========================== ====
 
 
-
-.. topic:: Classification, Regression or Unsupervised?
+Exercise: Classification, Regression or Unsupervised?
+-----------------------------------------------------
 
 .. highlights::
 
-   Consider the following 5 business cases.
+   Consider the following five business cases.
    In terms of ML, are they classification, regression or unsupervised problems?
 
    ----
 
    **A) Sales Forecast**
 
-   To place orders in time, you would like to estimate how much of a given item you will sell a year from now.
-   You know how many items were sold per day during the past 3 years. 
+   To place orders to a factory, you would like to estimate how much of a given item
+   you will sell during the next year.
+   You know how many items were sold per day during the past 5 years. 
    There are 10,000 different items.
 
    ----
 
    **B) Credit Card Fraud**
 
-   You have 100M credit card transactions. Out of these 10,000 turned out to be fraud attempts that have been cancelled.
+   You have 100M credit card transactions. Out of these 10,000 turned out
+   to be fraud attempts that have been cancelled.
    You would like to identify the fraudulent credit card transactions.
 
    ----
@@ -114,5 +116,5 @@ Random forest               1995
    **E) Hotel Reviews**
 
    You have 10000 hotel reviews in free text and a star rating (1-5). 
-   You have another 10000 reviews for which you have only the text and would like to find out the star rating.
-
+   You have another 10000 reviews for which you have only the text and would like
+   to find out the star rating.
