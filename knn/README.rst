@@ -2,7 +2,7 @@
 k-Nearest-Neighbors
 ===================
 
-**k-NN is a straightforward prediction method that has no parameters. 
+**k-NN is a straightforward prediction method that has no model parameters. 
 Predictions are made directly from the data. 
 Because k-NN is different from most other models, it is useful to include as a baseline model.**
 
@@ -13,10 +13,11 @@ The Algorithm
 
    **To make a prediction for a new data point:**
 
-   1. Calculate the distance of the new data point to all training data points
-   2. Identify the *k* closest ones by a distance metric
-   3. Calculate the most frequent target value (classification) or their average (regression)
-   4. Output the result of 3 as a prediction
+   1. Choose the hyperparameter *k*
+   2. Calculate the distance of the new data point to all training data points
+   3. Identify the *k* closest ones by a distance metric
+   4. Calculate the most frequent target value (classification) or their average (regression)
+   5. Output the result of step 3 as a prediction
 
 
 Distance Metrics
@@ -52,16 +53,11 @@ Pros                Cons
 =================== ==============================
 easy to understand  slow, O(N) for each prediction
 easy to explain
-good baseline
+good baseline model
 =================== ==============================
 
 
-
-.. container:: banner reading
-
-   Further Reading
-
-.. highlights::
+.. seealso::
 
    `k-NN Infographic by Avik Jain <https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Info-graphs/Day%207.jpg>`__
 
