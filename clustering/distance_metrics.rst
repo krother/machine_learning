@@ -1,9 +1,29 @@
-Similarity Measures
-===================
+Distance Metrics
+================
+
+Euclidean distance
+------------------
+
+This is the geometrical distance you probably are familiar with in two dimensions.
+It works in any number of dimensions:
+
+.. math::
+
+   dist = \sqrt(\sum_i^n (a_i - b_i)^2)
+
+Manhattan distance
+------------------
+
+The Manhattan distance moves along grid lines.
+It penalizes strong differences in one dimension less than the Euclidean distance:
+
+.. math::
+
+   dist = \sqrt(\sum_i^n \cbar a_i - b_i \cbar)
 
 
 Cosine similarity
-~~~~~~~~~~~~~~~~~
+-----------------
 
 As an Euclidean similarity measure, **cosine similarity** is commonly used:
 
@@ -19,7 +39,7 @@ Or, in more detail:
 
 
 Adjusted Cosine Similarity
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Simple cosine similarity does not account for different rating scales. There might be *happy raters* who usually give higher ratings 
 and *pessimistic raters* who generally give really low ratings.
@@ -35,7 +55,8 @@ It turns out that (for user-user similarities) this measure is similar to **Pear
 
 
 Jaccard similarity
-~~~~~~~~~~~~~~~~~~
+------------------
+
 For **binary variables** you might use the **Tanimoto coefficient** (also see **Jaccard Index**). It uses the **number of bits**:
 
 .. math::

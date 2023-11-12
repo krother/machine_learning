@@ -37,12 +37,12 @@ def get_similarity(node1, node2):
 
 
 
-# draw the tree
-tree = nodes[0]
-graph = Digraph(
-    edge_attr={'dir': 'back', 'color': 'black'},
-    node_attr={'fontname': 'arial', 'color': 'lightblue', 'style': 'filled'}
-)
-tree.draw(graph)
-graph.render('languages.gv', view=True)
-
+def draw_tree(nodes):
+    """uses Graphviz to draw a tree on screen"""
+    tree = nodes[0]
+    graph = Digraph(
+        edge_attr={'dir': 'back', 'color': 'black'},
+        node_attr={'fontname': 'arial', 'color': 'lightblue', 'style': 'filled'}
+    )
+    tree.draw(graph)
+    graph.render('languages.gv', view=True)

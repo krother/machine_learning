@@ -20,6 +20,11 @@ Contents
    fundamentals/training_models/README.rst
    fundamentals/libraries.rst
    knn/README.rst
+   clustering/distance_metrics.rst
+   clustering/README.rst
+   clustering/hierarchical_clustering.rst
+   clustering/kmeans.rst
+   clustering/dbscan.rst
    links.rst
 
 
