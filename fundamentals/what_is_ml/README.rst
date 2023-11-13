@@ -118,3 +118,47 @@ Exercise: Classification, Regression or Unsupervised?
    You have 10000 hotel reviews in free text and a star rating (1-5). 
    You have another 10000 reviews for which you have only the text and would like
    to find out the star rating.
+
+
+Recap Questions
+---------------
+
+1. What is Machine learning?
+
+::
+
+   a) descriptive statistics on big data
+   b) generic optimization algorithms
+   c) a computer program that writes other programs
+   d) optimizing model parameters against a dataset and a metric
+
+2. Which is true about supervised learning?
+
+::
+
+   a) you need data for X but not for y
+   b) you need data for both X and y
+   c) you need data for y but not for X
+   d) you need data for either X or y
+
+3. How are model parameters derived?
+
+::
+
+   a) from training data
+   b) from independent test data
+   c) specified by users
+   d) randomly generated
+
+4. What can supervised classification predict? (multiple answers)
+
+::
+
+   a) probabilities
+   b) category with 3+ possible values
+   c) a continuous float value
+   d) binary category
+
+
+
+
