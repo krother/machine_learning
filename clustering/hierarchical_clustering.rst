@@ -61,7 +61,7 @@ Complete the code using the terms: `float, set, return, union, word2`:
 
     def calc_word_similarity(word1: str, word2: str) -> ___:
         s1, s2 = ___(word1), set(___)
-        ___ len(s1.intersection(w2)) / len(s1.___(s2))
+        ___ len(s1.intersection(s2)) / len(s1.___(s2))
     
 Test the function with a few examples:
 
