@@ -3,15 +3,44 @@
 Linear Regression
 =================
 
-In regression, we are predicting a **scalar value** from one or more features.
-
 .. figure:: linear.png
+
+Exercise: Linear Regression from Scratch
+----------------------------------------
+
+Below you find seven CSV files.
+They contain artificial x and y data
+(and a few common traps).
+
+Download the **first data file** :download:`part1/linear01.csv` .
+Inspect the data using the follwing code:
+
+.. code:: python3
+
+   import pandas as pd
+
+   df = pd.read_csv("linear01.csv")
+   print(df.columns)
+   print(df.shape)
+
+   df.plot.scatter(x="x1", y="y")
+
+Then, write code that finds the optimal parameters of a line fitting the data.
+
+Continue with the other six files:
+
+* :download:`part1/linear02.csv`
+* :download:`part1/linear03.csv`
+* :download:`part1/linear04.csv`
+* :download:`part1/linear05.csv`
+* :download:`part1/linear06.csv`
+* :download:`part1/linear07.csv`
 
 
 Linear Regression models
 ------------------------
 
-Linear Regression is a straightforward model. 
+Linear Regression is a straightforward model predicting a **scalar value** from one or more features.
 The basic idea is to fit a straight line to the data points.
 
 .. math::
@@ -36,6 +65,24 @@ This equation can be written in a *vectorized* form, reducing the equation to a 
 .. math::
 
    \hat{y} =  \boldsymbol{X} \cdot \boldsymbol{w^T}
+
+
+The Normal Equation
+-------------------
+
+There is an analytical solution that finds the parameters of a linear model
+called the **Normal Equation** (or *closed form solution*).
+
+.. math::
+
+   \hat{w} = \frac{X^Ty}{X^TX}
+
+However, the time to compute the Normal Equation grows to the power of 3 with the number of data points.
+For many data points and/or features, the Normal Equation becomes very slow.
+Also, it runs into a math dilemma (a non-invertible matrix) if the features are redundant
+or linearly dependent.
+
+In practice, you rarely find the Normal Equation, and the alternative **Gradient Descent** is used instead.
 
 
 Evaluation Metrics
@@ -67,44 +114,6 @@ You can also think of this as comparing your predictions to the **simplest possi
    R^2 = 1 - \frac{SSE}{SS_{total}} = 1 - \frac{\sum_{i=1}^n(y_i-\hat{y_i})^2}{\sum_{i=1}^n(y_i-\overline{y})^2}
 
 
-
-How to fit a Linear Regression model?
--------------------------------------
-
-Linear models are generally easy to solve and very fast. There is an
-equation called the **Normal Equation** that finds the parameter
-analytically (also called *closed form solution*).
-
-.. math::
-
-   \hat{w} = \frac{X^Ty}{X^TX}
-
-However, the time to compute the normal equation grows to the power of 3 with the number of data points. For many data points and/or features, the normal equation becomes very slow.
-Also, it runs into a math dilemma (a non-invertible matrix) if the features are redundant or linearly dependent.
-
-The alternative, **Gradient Descent** does also find optimal parameters.
-It starts with a **random guess** and performs minimization steps until it reaches optimal values for the coefficients.
-
-Gradient Descent
-----------------
-
-.. highlights::
-
-   The Gradient Descent algorithm works like this:
-
-   1. set all model coefficients to random values
-   2. calculate the partial derivative of the loss function (the MSE) by each coefficient (the Jacobian). This is also called the **gradient** :math:`\triangledown loss(\omega)`
-   3. multiply the derivatives with a **learning rate** :math:`\eta`
-   4. modify the coefficients by the modified derivatives
-   5. repeat steps 2-4 until the algorithm converges
-
-   The key equation for calculting the weight modification :math:`\triangle \omega` is:
-
-   .. math::
-
-      \triangle \omega = -\eta \triangledown loss(\omega)
-
-
 Terminology
 -----------
 
@@ -121,22 +130,17 @@ Polynomial Regression    fitting polynomial features
 ======================== ==================================================
 
 
-
 Example with Scikit
 -------------------
 
 .. literalinclude:: ex_linear_model.py
 
+.. seealso::
 
-.. container:: banner reading
+   With good feature engineering, Linear Regression becomes a very strong technique for a variety
+   of applications:
 
-   Further Reading
-
-.. highlights::
-
-   With good feature engineering, Linear Regression becomes a very strong technique for a variety of applications:
-
-   .. youtube:: https://www.youtube.com/watch?v=68ABAU_V8qI
+   `www.youtube.com/watch?v=68ABAU_V8qI <https://www.youtube.com/watch?v=68ABAU_V8qI>`__
 
 
 Example with Statsmodels
@@ -162,27 +166,11 @@ Alternatively, you can specify an equation:
    m = OLS.from_formula('cnt ~ temp**2 + hum + windspeed', data=df)
 
 
+Recap Questions
+---------------
 
-.. container:: banner recap
-
-   Recap Questions
-
-.. highlights::
-
-   -  Can you use Linear Regression with millions of data points?
-   -  Can you use Linear Regression with millions of features?
-   -  Which training algorithms exist and what are their pros and cons?
-   -  Does it help to scale the date in Linear Regression?
-   -  How do Generalized Linear Models (GLMs) differ from linear regression?
-
-----
-
-.. note::
-
-   The exercise questions were adopted from: *Hands-On Machine Learning
-   with Scikit-Learn and TensorFlow by Aurélien Géron. Publisher: O'Reilly
-   Media. 2017.*
-
-   Some text and equations were adopted from work by Daniel Voigt Godoy, CC-BY 4.0.
-
-
+-  Can you use Linear Regression with millions of data points?
+-  Can you use Linear Regression with millions of features?
+-  Which training algorithms exist and what are their pros and cons?
+-  Does it help to scale the date in Linear Regression?
+-  How do Generalized Linear Models (GLMs) differ from linear regression?

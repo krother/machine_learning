@@ -25,6 +25,7 @@ Contents
    clustering/hierarchical_clustering.rst
    clustering/kmeans.rst
    clustering/dbscan.rst
+   linear_regression/README.rst
    links.rst
 
 
