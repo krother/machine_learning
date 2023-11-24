@@ -11,8 +11,10 @@ Identify the seven concepts in the diagram using the syllables:
 
 ::
 
-   AL BAL CE CON DI DI ENT ER FUNC GING GING GLO GRA LOC
-   LOSS MET MI MI MUM MUM NI NI ON PARA SPA TI VER VER
+   AL BAL CE CON DI DI ENT ER FUNC
+   GING GING GLO GRA LOC LOSS MET
+   MI MI MUM MUM NI NI ON PARA
+   SPA TI VER VER
 
 .. figure:: gd_puzzle.png
 
@@ -99,8 +101,9 @@ Here is the pseudocode:
 ::
    
    1. set all model parameters to random values
-   2. calculate the partial derivative of the loss function (the MSE) for each parameter
-   3. multiply each derivatives with the learning rate :math:`\eta`
+   2. calculate the partial derivative
+      of the loss function for each parameter
+   3. multiply each derivatives with the learning rate
    4. modify the model parameters by the resulting vector
    5. repeat steps 2-4 until the loss function does not change
 
