@@ -26,6 +26,8 @@ Contents
    clustering/kmeans.rst
    clustering/dbscan.rst
    linear_regression/README.rst
+   linear_regression/gradient_descent.rst
+   project.rst
    links.rst
 
 
