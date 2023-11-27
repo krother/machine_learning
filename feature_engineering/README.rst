@@ -1,18 +1,16 @@
 
-.. _feature_eng_I:
-
-Scaling and Encoding
-====================
+Feature Engineering
+===================
 
 **Feature Engineering** refers to all techniques that make your data easier for a model to understand.
 Here is an (incomplete) list of scaling/encoding techniques:
 
 =================== ======================================================
-class               description
+name                description
 =================== ======================================================
-OneHotEncoder       converts a category to binary columns
-KBinsDiscretizer    bins scalar data to make it categorical
-MinMaxScaler        normalize the data to the range 0.0 - 1.0
+one-hot encoding    converts a category to binary columns
+binning             bins scalar data to make it categorical
+min-max scaling     normalize the data to the range 0.0 - 1.0
 factorizing         converts categories to a single integers
 target encoding     uses proportions of the target class
 Log-Transform       converts exponential to linear
@@ -22,22 +20,20 @@ Log-Transform       converts exponential to linear
 The goal of Feature Engineering is to derive a *better* representation of your input data. 
 
 
-.. container:: banner python
+The Transform Pattern
+---------------------
 
-   The Transform Pattern
+In scikit-learn, there is a generic `transform()` mechanism that applies to all feature engineering methods:
 
-.. highlights::
-
-   In scikit-learn, there is a generic `transform()` mechanism that applies to all feature engineering methods:
+::
 
    1. create a transformer object
    2. call `.fit()` on the training data
    3. call `.transform()` on the test/validation data
 
-   .. warning::
+.. warning::
 
-      **Never call `.fit()` on test/validation data. This ruins everything!**
-
+   **Never call `.fit()` on test/validation data. This ruins everything!**
 
 
 
@@ -48,15 +44,15 @@ One-Hot encoding (dummy encoding) transforms a categorical variable into binary 
 
 Every distinct category becomes a binary column, so that every row has exactly one positive value.
 
-======== ======= ===== ===== =====
-category -->     thyme chili basil
-======== ======= ===== ===== =====
-thyme             1     0     0
-chili             0     1     0
-chili             0     1     0
-thyme             1     0     0
-basil             0     0     1
-======== ======= ===== ===== =====
+======== ======= ===== ====== ======
+category -->     apple banana cherry
+======== ======= ===== ====== ======
+apple             1     0      0
+banana            0     1      0
+banana            0     1      0
+apple             1     0      0
+cherry            0     0      1
+======== ======= ===== ====== ======
 
 .. code:: python3
 
@@ -188,44 +184,8 @@ They are a good starting point if you want to write your own ``FunctionTransform
 =================================== ================================
 function                            description
 =================================== ================================
-:py:meth:`pandas.DataFrame.fillna`  imputation
 :py:func:`pandas.get_dummies`       one-hot encoding
 :py:func:`pandas.cut`               binning (bins of equal width)
 :py:func:`pandas.qcut`              binning (quantile bins)
 :py:meth:`pandas.Series.factorize`  convert a category to an integer
 =================================== ================================
-
-
-   Count data is often evaluted with the `Root Mean Squared Log Error (RMSLE) <https://www.kaggle.com/c/bike-sharing-demand/overview/evaluation>`_.
-
-   The purpose of this metric is to treat the error in relation to the absolute value.
-   If the predicted value is 100, an error of 10 does not matter that much,
-   but if the predicted value is only 1, the same error is huge. The logarithm fixes that.
-
-   To optimize your model against the RMSLE, you should take the logarithm of the target colum (`y`).
-   Because 0 is a valid target value, use the log of :math:`y+1` instead:
-
-   .. code:: python3
-
-      ylog = np.log1p(y)
-
-   Then train your model on the transformed column ``ylog``. To bring back your `log` predictions
-   to the original scale you have to apply the inverse transformation on the predictions:
-
-   .. code:: python3
-
-      ypred = np.exp(ypredlog)-1
-
-   You can then calculate the RMSLE score using sklearn:
-
-   .. code:: python3
-
-      from sklearn.metrics import mean_squared_log_error
-
-      np.sqrt(mean_squared_log_error(y, ypred))
-
-   .. warning::
-
-      The log transformation only makes sense if there is an absolute zero. 
-      This is the case with countable quantities (products sold, money, stocks, movies, electrons).
-      It does not work with uncountable ones (Celsius temperature, timestamps).
