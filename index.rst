@@ -27,6 +27,7 @@ Contents
    clustering/dbscan.rst
    linear_regression/README.rst
    linear_regression/gradient_descent.rst
+   feature_engineering/README.rst
    project.rst
    links.rst
 

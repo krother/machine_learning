@@ -2,6 +2,19 @@
 Feature Engineering
 ===================
 
+Exercise
+--------
+
+Train linear regression models on the following data files:
+
+* :download:`linear08.csv`
+* :download:`linear09.csv`
+* :download:`linear10.csv`
+* :download:`linear11.csv`
+
+Methods
+-------
+
 **Feature Engineering** refers to all techniques that make your data easier for a model to understand.
 Here is an (incomplete) list of scaling/encoding techniques:
 
