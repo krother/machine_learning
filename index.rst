@@ -28,6 +28,7 @@ Contents
    linear_regression/README.rst
    linear_regression/gradient_descent.rst
    feature_engineering/README.rst
+   linear_regression/assumptions.rst
    project.rst
    links.rst
 

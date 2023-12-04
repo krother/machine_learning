@@ -4,35 +4,25 @@
 Evaluating Linear Regression Models
 ===================================
 
-.. container:: banner warmup
+Exercise: Anscombes Quartet
+---------------------------
 
-   Anscombes Quartet
+Calculate a few descriptive statistics on an example dataset:
 
-.. highlights::
+.. code:: python3
 
-   Explore an example dataset:
+   import seaborn as sns
 
-   .. code:: python3
+   df = sns.load_dataset("anscombe")
+   df.groupby('dataset').describe()
 
-      import seaborn as sns
+Also, plot the data:
 
-      df = sns.load_dataset("anscombe")
+.. code:: python3
 
-   Calculate a few descriptive statistics:
+   df.groupby('dataset').plot.scatter('x', 'y')
 
-   .. code:: python3
-
-      df.groupby('dataset').describe()
-
-   Also, plot the data:
-
-   .. code:: python3
-
-      df.groupby('dataset').plot.scatter('x', 'y')
-
-   What do you notice?
-
-
+What do you notice?
 
 
 Assumptions in Linear Regression
@@ -43,14 +33,14 @@ There are eight assumptions in linear regression models that one might check:
 === ============================================================== =============================================================================================================== ================================================
 Nr  Assumption                                                     Description                                                                                                     Importance
 === ============================================================== =============================================================================================================== ================================================
-1)  Linear in parameters: :math:`Y = X \cdot w^T + \epsilon`         The true relationship between Y and X is linear in the parameters (+ some random error term :math:`\epsilon`) If violated, the model will be biased
-2)  Random Sampling                                                The sample for the linear regression should be randomly chosen from the population                              If violated, the model will be biased
-3)  Sample Variation in the Explanatory Variables X                The input variables X take on different values                                                                  If violated, there is no information to be gathered from the input X
-4)  Zero Conditional Mean Assumption: E( :math:`\epsilon|X` ) = 0  The mean of the error term conditional on the input variables is zero                                           If violated, the model will be biased
-5)  Homoscedasticity / Constant Variance                           The variance of the error term (Var(e)) is the same over all values of X                                        If violated, the model might not be efficient
-6)  Normally distributed residuals                                 The distribution of the error term is (asymptotically) normal                                                   If violated, exact statistical statements about the coefficients are difficult
-7)  No multicollinearity                                           The features of the model are not closely correlated with each other                                         If violated, p-values are useless
-8)  No correlation between the error terms                         There is no autocorrelation between the error terms; mostly important for time series data                          If violated, exact statistical statements about the coefficients are difficult
+1.  Linear in parameters: :math:`Y = X \cdot w^T + \epsilon`         The true relationship between Y and X is linear in the parameters (+ some random error term :math:`\epsilon`) If violated, the model will be biased
+2.  Random Sampling                                                The sample for the linear regression should be randomly chosen from the population                              If violated, the model will be biased
+3.  Sample Variation in the Explanatory Variables X                The input variables X take on different values                                                                  If violated, there is no information to be gathered from the input X
+4.  Zero Conditional Mean Assumption: E( :math:`\epsilon|X` ) = 0  The mean of the error term conditional on the input variables is zero                                           If violated, the model will be biased
+5.  Homoscedasticity / Constant Variance                           The variance of the error term (Var(e)) is the same over all values of X                                        If violated, the model might not be efficient
+6.  Normally distributed residuals                                 The distribution of the error term is (asymptotically) normal                                                   If violated, exact statistical statements about the coefficients are difficult
+7.  No multicolinearity                                            The features of the model are not closely correlated with each other                                         If violated, p-values are useless
+8.  No correlation between the error terms                         There is no autocorrelation between the error terms; mostly important for time series data                          If violated, exact statistical statements about the coefficients are difficult
 === ============================================================== =============================================================================================================== ================================================
 
 The Gauss-Markov Theorem 
@@ -67,7 +57,7 @@ If you are mainly interested in **predicting** values, checking assumptions 1-5 
 Unbiasedness (Assumptions 1-4)
 ------------------------------
 
-An estimate is said to be unbiased if, in expectation, it is equal to the true
+An estimate is said to be **unbiased** if, in expectation, it is equal to the true
 value. For example:
 
 :math:`E(\hat{w}|X) = w`
@@ -258,22 +248,6 @@ Check this assumption with a Durbin Watson test or the ACF plot:
 
    plot_acf(residuals, lags=20)
 
-
-
-.. container:: banner reading
-
-   Further Reading
-
-.. highlights::
+.. seealso::
 
    `OLS and the Gauss-Markov Theorem <https://www.statlect.com/fundamentals-of-statistics/Gauss-Markov-theorem>`__
-
-.. container:: banner recap
-
-   Recap Questions
-
-.. highlights::
-
-   -  Under what circumstances can you allow some assumptions to be violated?
-   -  What do the numbers in the ``statsmodels`` output mean?
-
