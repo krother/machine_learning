@@ -29,13 +29,14 @@ Contents
    linear_regression/gradient_descent.rst
    feature_engineering/README.rst
    linear_regression/assumptions.rst
+   logistic_regression/README.rst
+   evaluating_classifiers/README.rst
    project.rst
    links.rst
 
-
 .. topic:: License
 
-   © 2022 Dr. Kristian Rother and several other authors
+   © 2023 Dr. Kristian Rother and everybody in :download:`AUTHORS.md`.
 
    Usable under the conditions of the Creative Commons Attribution Share-alike License 4.0 (CC-BY-SA 4.0).
    See `creativecommons.org <https://creativecommons.org/licenses/by-sa/4.0/>`__ for details

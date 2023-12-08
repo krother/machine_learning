@@ -8,14 +8,12 @@ Evaluating Classifiers
 *source:* `kdnuggets <https://www.kdnuggets.com/2015/12/cartoon-data-science-contest-coffeemaker.html>`__
 
 
-.. container:: banner warmup
+Exercise: Cancer Detection
+--------------------------
 
-    Cancer Detection
+This is a simplified example inspired by `this paper <https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-019-0307-7>`__:
 
-
-.. highlights::
-
-    This is a simplified example inspired by `this paper <https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-019-0307-7>`__:
+::
 
     Two new skin cancer detection classifiers have been developed and tested on 1000 images of patients' skins of which 50 show signs of cancer:
         - The first model predicts a high risk of cancer for 800 out of 1000 patients' images in the test set. Of these 800 images 50 actually show signs of skin cancer. Hence, all problematic images are correctly identified.
@@ -75,8 +73,6 @@ By default, the matrix contains absolute counts.
 The parameter ``normalize`` converts the values to percentages.
 It be set to ``true`` or ``pred`` so that the rows and columns add up to 1.0,
 or to ``all`` in which case the sum of the entire matrix will be 1.0.
-
-
 
 
 Accuracy
@@ -148,23 +144,14 @@ In practice, the F1 will drop as soon as precision or recall drop.
      from sklearn.metrics import f1_score
 
 
-.. container:: banner debug
+.. warning::
 
-   Look it up
-
-.. highlights::
-
-   **Aren't these equations very similar and easy to mix up?**
-
-   Yes they are! After teaching them for 4+ years, I still look them up on Wikipedia every time, just to be on the safe side.
+   These equations are very similar and easy to mix up.
+   After teaching them for 5+ years,
+   I still look them up on Wikipedia every time, just to be on the safe side.
 
 
-
-.. container:: banner reading
-
-   Further Reading
-
-.. highlights::
+.. seealso::
 
    - `Scikit classification_report <https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html>`__
    - `Visualizing ROC curves and confusion matrices with Scikit <https://scikit-learn.org/stable/visualizations.html#visualizations>`__
@@ -172,11 +159,8 @@ In practice, the F1 will drop as soon as precision or recall drop.
    - `Beyond Accuracy, Precision and Recall <https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c>`__
 
 
-.. container:: banner recap
+Recap Questions
+---------------
 
-   Reflection Questions
-
-.. highlights::
-
-   -  When is accuracy **not** a good metric?
-   -  For which real-world examples is high recall more important than high precision? When is precision more important than recall?
+ -  When is accuracy **not** a good metric?
+ -  For which real-world examples is high recall more important than high precision? When is precision more important than recall?
