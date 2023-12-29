@@ -30,7 +30,10 @@ Contents
    feature_engineering/README.rst
    linear_regression/assumptions.rst
    logistic_regression/README.rst
+   decision_trees/README.rst
+   random_forests/README.rst
    evaluating_classifiers/README.rst
+   cross_validation/README.rst
    project.rst
    links.rst
 

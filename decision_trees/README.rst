@@ -4,13 +4,10 @@
 Decision Trees
 ==============
 
-.. container:: banner warmup
+Exercise: Place the concepts
+----------------------------
 
-   Place the concepts
-
-.. highlights::
-
-   .. figure:: tree_puzzle.svg
+.. figure:: tree_puzzle.svg
 
 
 Key Concepts
@@ -75,11 +72,7 @@ Decision Trees in Scikit-learn
    print(m.score(Xval, yval))
 
 
-.. container:: banner challenge1
-
-   Change the depth
-
-.. highlights::
+.. hint::
 
    Try different values for the `max_depth` hyperparameter. 
    What effect does it have on the score?
@@ -90,35 +83,28 @@ Plotting Decision Trees
 
 One advantage of Decision Trees is that scikit can plot them easily:
 
-   .. code:: python3
+.. code:: python3
 
-      from sklearn.tree import plot_tree
+   from sklearn.tree import plot_tree
 
-      plot_tree(model)
+   plot_tree(model)
 
-   .. figure:: tree_graphviz.png
+.. figure:: tree_graphviz.png
 
 
+.. seealso::
 
-.. container:: banner reading
+   -  `A simple explanation of Gini impurity <https://victorzhou.com/blog/gini-impurity/>`__
+   -  `Decision Tree infographic <https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Info-graphs/Day%2023.jpg>`__
+   -  `scikit documentation for Decision Tree models <https://scikit-learn.org/stable/modules/tree.html>`__
+   -  `paper on classification and regression trees <http://pages.stat.wisc.edu/~loh/treeprogs/guide/wires11.pdf>`__ .
 
-   Further Reading
 
-.. highlights::
+Recap Questions
+---------------
 
-  -  `A simple explanation of Gini impurity <https://victorzhou.com/blog/gini-impurity/>`__
-  -  `Decision Tree infographic <https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Info-graphs/Day%2023.jpg>`__
-  -  `scikit documentation for Decision Tree models <https://scikit-learn.org/stable/modules/tree.html>`__
-  -  `paper on classification and regression trees <http://pages.stat.wisc.edu/~loh/treeprogs/guide/wires11.pdf>`__ .
-
-.. container:: banner recap
-
-   Recap Questions
-
-.. highlights::
-
-   -  what is a binary tree?
-   -  what do the internal nodes of a decision tree contain?
-   -  what do the leaves (external nodes) of a tree contain?
-   -  what is node impurity? How can it be measured?
-   -  What is the minimum and maximum depth of a Decision Tree trained on one million data points?
+-  what is a binary tree?
+-  what do the internal nodes of a decision tree contain?
+-  what do the leaves (external nodes) of a tree contain?
+-  what is node impurity? How can it be measured?
+-  What is the minimum and maximum depth of a Decision Tree trained on one million data points?
