@@ -1,18 +1,19 @@
 Further Reading
 ===============
 
-
 Machine Learning Courses
 ------------------------
 
--  `StatQuest Videos <https://www.youtube.com/user/joshstarmer/videos?view=0&sort=p&flow=grid>`__
 -  `Machine Learning on Coursera <https://www.coursera.org/course/ml>`__ – by Andrew Ng, probably the most famous course on ML
--  `Deep Learning Specialization on Coursera <https://www.coursera.org/specializations/deep-learning>`__ – series of short courses
+-  `StatQuest Videos <https://www.youtube.com/user/joshstarmer/videos?view=0&sort=p&flow=grid>`__
 -  `ML Course on Udacity <https://www.udacity.com/course/intro-to-machine-learning--ud120#>`__ – by Katie Malone and Sebastian Thrun
--  `Fast AI Course <https://course.fst.ai/>`__
+-  `Machine Learning for Beginners <https://github.com/microsoft/ML-For-Beginners>`__ – by Microsoft
 -  `Machine Learning Caltech <https://work.caltech.edu/telecourse.html>`__ – video lectures on many ML topics
+-  `Deep Learning Specialization on Coursera <https://www.coursera.org/specializations/deep-learning>`__ – series of short courses
+-  `Fast AI Course <https://course.fst.ai/>`__
 -  `NVidia Computer Vision Course <https://developer.nvidia.com/dli/onlinelabs>`__
 -  `Andreas Mullers Scikit Lectures <https://www.youtube.com/andreasmueller>`__
+-  `ML Course Notes <https://github.com/dair-ai/ML-Course-Notes>`__
 
 Books
 -----
@@ -29,8 +30,11 @@ Here are sources worth visiting to train models in Python:
 
 - `Scikit-Learn Homepage <http://scikit-learn.org/>`__
 - `Scikit-Learn Cheat Sheet <https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf>`__
+- `Data Science in Python <https://github.com/microsoft/Data-Science-For-Beginners>`__
 - `Code Sniplets by Chris Albon <https://chrisalbon.com/>`__
 - `Scipy Lecture Notes <http://www.scipy-lectures.org/>`__
+- `Serverless ML - MLOps blog <https://www.serverless-ml.org>`__
+
 
 Deep Learning Papers
 --------------------
@@ -71,3 +75,4 @@ Podcasts
 -  `Linear digressions <http://lineardigressions.com/>`__ – good for certain things
 -  `Talk Python to me <https://talkpython.fm/>`__ – some really good episodes on particular packages
 -  `Videos on core ML concepts <https://www.youtube.com/user/joshstarmer>`__
+-  `The AI Dilemma <https://www.youtube.com/watch?v=xoVJKj8lcNQ>`__

@@ -50,3 +50,4 @@ Entwickle einen einfachen Spamfilter. Hinweise und Daten unter:
 
 * [Kaggle](https://www.kaggle.com/) enthält Aufgaben und Daten dazu
 * Im Buch [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://shop.oreilly.com/product/0636920052289.do) von Aurelien Geron gibt es sehr gut geschriebene Übungen
+* https://www.kaggle.com/datasets/camnugent/california-housing-prices
