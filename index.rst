@@ -19,6 +19,7 @@ Contents
    fundamentals/what_is_ml/README.rst
    fundamentals/training_models/README.rst
    fundamentals/libraries.rst
+   fundamentals/installing.rst
    knn/README.rst
    clustering/distance_metrics.rst
    clustering/README.rst
