@@ -130,7 +130,8 @@ Recap Questions
    a) descriptive statistics on big data
    b) generic optimization algorithms
    c) a computer program that writes other programs
-   d) optimizing model parameters against a dataset and a metric
+   d) optimizing model parameters against
+      a dataset and a metric
 
 2. Which is true about supervised learning?
 
