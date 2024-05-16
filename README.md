@@ -11,6 +11,6 @@ It includes examples and exercises that help you train your own models in Python
 
 ### License
 
-(c) 2022 Dr. Kristian Rother and other authors
+(c) 2024 Dr. Kristian Rother and other authors
 
 Distributed under the Creative Commons Attribution Share Alike License 4.0
