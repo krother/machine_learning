@@ -43,6 +43,7 @@ Supervised Learning
    linear_regression/README.rst
    linear_regression/gradient_descent.rst
    feature_engineering/README.rst
+   feature_engineering/column_transformers.rst
    linear_regression/assumptions.rst
    logistic_regression/README.rst
    decision_trees/README.rst
