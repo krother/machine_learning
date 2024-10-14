@@ -22,7 +22,7 @@ plt.show()
 # algorithm 2: DBSCAN
 dbscan = cluster.DBSCAN(eps=0.3)
 dbscan.fit(moons)
-clusters_db = dbscan.labels_.astype(np.int)
+clusters_db = dbscan.labels_.astype(np.int8)
 
 plt.scatter(moons[:, 0], moons[:, 1], s=10, 
             color=colors[clusters_db])
