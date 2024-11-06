@@ -10,6 +10,7 @@ project = 'Machine Learning'
 copyright = '2023, Kristian Rother'
 author = 'Kristian Rother'
 release = '1.0'
+html_title = f"{project}"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -23,27 +24,21 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-language = 'ls'
+language = 'en'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'academis_sphinx_theme'
-html_theme_path = ['themes']
+html_theme = 'furo'
 html_static_path = ['_static']
+html_logo = "_static/academis_logo.png"
 html_favicon = "_static/favicon.ico"
 
-html_sidebars = {
-    '**': [
-        'about.html',
-        'localtoc.html',
-        'searchbox.html',
-    ]
-}
+html_css_files = [
+    "academis.css",
+]
 html_theme_options = {
-    'logo': 'academis.png',
-    'github_user': 'krother',
-    'github_repo': 'machine_learning',
-    'show_relbar_top' : True,
-    'show_relbar_bottom' : True,
+    "source_repository": "https://github.com/krother/machine_learning",
+    "source_branch": "main",
+    "source_directory": "",
 }
