@@ -39,15 +39,15 @@ Supervised Learning
 .. toctree::
    :maxdepth: 1
 
-   knn/README.rst
-   linear_regression/README.rst
-   linear_regression/gradient_descent.rst
-   feature_engineering/README.rst
-   feature_engineering/column_transformers.rst
-   linear_regression/assumptions.rst
-   logistic_regression/README.rst
-   decision_trees/README.rst
-   random_forests/README.rst
+   supervised/knn/README.rst
+   supervised/linear_regression/README.rst
+   supervised/linear_regression/gradient_descent.rst
+   supervised/feature_engineering/README.rst
+   supervised/feature_engineering/column_transformers.rst
+   supervised/linear_regression/assumptions.rst
+   supervised/logistic_regression/README.rst
+   supervised/decision_trees/README.rst
+   supervised/random_forests/README.rst
 
 Evaluating Models
 -----------------
@@ -55,8 +55,17 @@ Evaluating Models
 .. toctree::
    :maxdepth: 1
 
-   evaluating_classifiers/README.rst
-   cross_validation/README.rst
+   supervised/evaluating_classifiers/README.rst
+   supervised/cross_validation/README.rst
+
+Deep Learning
+-------------
+
+.. toctree::
+   :maxdepth: 1
+
+   
+
 
 Appendix
 --------
@@ -69,7 +78,7 @@ Appendix
 
 .. topic:: License
 
-   © 2024 Dr. Kristian Rother and everybody in :download:`AUTHORS.md`.
+   © 2024 Dr. Kristian Rother and everybody in :download:`LICENSE`.
 
    Usable under the conditions of the Creative Commons Attribution Share-alike License 4.0 (CC-BY-SA 4.0).
    See `creativecommons.org <https://creativecommons.org/licenses/by-sa/4.0/>`__ for details
