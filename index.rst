@@ -32,6 +32,8 @@ Unsupervised Learning
    clustering/hierarchical_clustering.rst
    clustering/kmeans.rst
    clustering/dbscan.rst
+   unsupervised/pca/README.rst
+   unsupervised/unsupervised/README.rst
 
 Supervised Learning
 ---------------------
@@ -48,6 +50,7 @@ Supervised Learning
    supervised/logistic_regression/README.rst
    supervised/decision_trees/README.rst
    supervised/random_forests/README.rst
+   supervised/support_vector_machines/README.rst
 
 Evaluating Models
 -----------------
@@ -64,7 +67,16 @@ Deep Learning
 .. toctree::
    :maxdepth: 1
 
-   
+   deep_learning/neural_networks/README.rst
+   deep_learning/training_strategies/README.rst
+   deep_learning/convolutional_neural_networks/README.rst
+   deep_learning/transfer_learning/README.rst
+   deep_learning/recurrent_neural_networks/README.rst
+   deep_learning/bag_of_words/README.rst
+   deep_learning/word_embeddings/README.rst
+   deep_learning/gan/yolo.rst
+   deep_learning/gan/gan.rst
+   deep_learning/tensorflow/README.rst
 
 
 Appendix
