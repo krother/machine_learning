@@ -68,6 +68,7 @@ Deep Learning
    :maxdepth: 1
 
    deep_learning/neural_networks/README.rst
+   deep_learning/tensorflow/README.rst
    deep_learning/training_strategies/README.rst
    deep_learning/convolutional_neural_networks/README.rst
    deep_learning/transfer_learning/README.rst
@@ -76,7 +77,6 @@ Deep Learning
    deep_learning/word_embeddings/README.rst
    deep_learning/gan/yolo.rst
    deep_learning/gan/gan.rst
-   deep_learning/tensorflow/README.rst
 
 
 Appendix

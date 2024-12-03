@@ -1,65 +1,56 @@
 
 .. _keras:
 
-TensorFlow
-==========
+Training an ANN with TensorFlow
+===============================
 
 **TensorFlow is a Python library that makes building neural networks easy.**
 
 Tensorflow is maintained by Google.
-Next to PyTorch (Facebook) it is one of the two big Deep Learning libraries.
+Next to **PyTorch (Meta)** it is one of the big Deep Learning libraries.
 
 One key advantage of TensorFlow is that it works on many platforms, including GPUs, computing clusters, embedded devices, web browsers and phones. 
 
 
-.. container:: banner warmup
+Download MNIST Data
+-------------------
 
-   Download MNIST Data
+The MNIST dataset contains images of 60,000 handwritten digits.
+It is a great example to experiment with TensorFlow:
 
-.. highlights::
+.. code:: python3
 
-   The MNIST dataset contains images of 60,000 handwritten digits.
-   It is a great example to experiment with TensorFlow:
+   from tensorflow.keras.datasets import mnist
 
-   .. code:: python3
+   (Xtrain, ytrain), (Xtest, ytest) = mnist.load_data()
 
-      from tensorflow.keras.datasets import mnist
+To plot some of the digits use:
 
-      (Xtrain, ytrain), (Xtest, ytest) = mnist.load_data()
+.. code:: python3
 
-   To plot some of the digits use:
+   from matplotlib import pyplot as plt
 
-   .. code:: python3
-
-      from matplotlib import pyplot as plt
-
-      for i in range(25):
-          plt.subplot(5, 5, i+1)
-          plt.imshow(Xtrain[i], cmap=plt.cm.Greys)
-          plt.axis('off')
+   for i in range(25):
+         plt.subplot(5, 5, i+1)
+         plt.imshow(Xtrain[i], cmap=plt.cm.Greys)
+         plt.axis('off')
 
 
-   You may want to one-hot encode the target column:
+You may want to one-hot encode the target column:
 
-   .. code:: python3
+.. code:: python3
 
-      import tensorflow as tf
+   import tensorflow as tf
 
-      ytrain = tf.keras.utils.to_categorical(ytrain, num_classes=None, dtype='float32')
-      ytest = tf.keras.utils.to_categorical(ytest, num_classes=None, dtype='float32')
+   ytrain = tf.keras.utils.to_categorical(ytrain, num_classes=None, dtype='float32')
+   ytest = tf.keras.utils.to_categorical(ytest, num_classes=None, dtype='float32')
 
-   To train a Fully Connected ANN, you need to reshape X:
+To train a Fully Connected ANN, you need to reshape X:
 
-   .. code:: python3
-    
-      Xtrain = Xtrain.reshape(60000, 784)
-      Xtest = Xtest.reshape(10000, 784)
-
-
-.. seealso::
-
-   Original source: `MNIST training and test data <http://yann.lecun.com/exdb/mnist/>`__
-
+.. code:: python3
+   
+   Xtrain = Xtrain.reshape(60000, 784)
+   Xtest = Xtest.reshape(10000, 784)
 
 
 Training a Neural Network
@@ -250,31 +241,24 @@ To use the trained model somewhere else in a project it can be loaded from file:
    network.summary()
 
 
+Debugging Checklist
+-------------------
 
-.. container:: banner debug
-
-   Debugging Checklist
-
-.. highlights::
-
-   -  inspect the shapes of your X/y data
-   -  one-hot-encode y (in multiclass classification)
-   -  print the model summary
-   -  add accuracy to the metrics
-   -  set a validation dataset
-   -  draw learning curve
-   -  vary the number of layers/neurons
-   -  try a few learning strategies
-   -  save checkpoints during training
-   -  plot a histogram of model weights before/after training
+-  inspect the shapes of your X/y data
+-  one-hot-encode y (in multiclass classification)
+-  print the model summary
+-  add accuracy to the metrics
+-  set a validation dataset
+-  draw learning curve
+-  vary the number of layers/neurons
+-  try a few learning strategies
+-  save checkpoints during training
+-  plot a histogram of model weights before/after training
 
 
-.. container:: banner reading
+.. seealso::
 
-   Further Reading
-
-.. highlights::
-
+   - `MNIST training and test data <http://yann.lecun.com/exdb/mnist/>`__
    - `TensorFlow Homepage <https://www.tensorflow.org>`__
    - `Checklist for debugging neural networks <https://towardsdatascience.com/checklist-for-debugging-neural-networks-d8b2a9434f21>`__
    - `Deep Learning Resources by Sebastian Raschka <https://sebastianraschka.com/deep-learning-resources.html>`__
