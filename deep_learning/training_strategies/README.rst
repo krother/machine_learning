@@ -1,52 +1,42 @@
 Training Strategies
 ===================
 
-.. container:: banner warmup
-
-   Hyperparameters
-
-.. highlights::
-
-   List all the hyperparameters you can tweak
-   in a feed-forward-network.
-
-
-
 Neural Networks are very complex non-linear models.
 They are trained by the **backpropagation** algorithm (a sophisticated application of Gradient Descent).
 Backpropagation is not easy to work with. It is very prone to overfitting and getting stuck in local minima.
 
+Generic Training Strategy
+-------------------------
 
-.. container:: banner milestone
+1. Start with a tiny network
+++++++++++++++++++++++++++++
 
-   Generic Training Strategy
+Build a network with very few layers and neurons first. Check whether your input and output shapes are correct.
+All you are interested in at this point is that your code runs without errors.
 
-.. highlights::
+2. Simple training
+++++++++++++++++++
 
-   **1. Start with a tiny network**
-   
-   Build a network with very few layers and neurons first. Check whether your input and output shapes are correct.
-   All you are interested in at this point is that your code runs without errors.
+Increase the size of the network moderately. Run the network and observe the loss function / accuracy.
+Now you are looking for proof that the network is actually learning *something*.
 
-   **2. Simple training**
+3. Go bigger
+++++++++++++
 
-   Increase the size of the network moderately. Run the network and observe the loss function / accuracy.
-   Now you are looking for proof that the network is actually learning *something*.
+Increase the size of the network further. Make it as big as you can afford to wait.
+The point of this is to probe how far you can push the learning. Observe the learning curves closely.
 
-   **3. Go bigger**
+4. Optimize and Regularize
+++++++++++++++++++++++++++
 
-   Increase the size of the network further. Make it as big as you can afford to wait.
-   The point of this is to probe how far you can push the learning. Observe the learning curves closely.
+Probably your network is overfitting by now. Gradually make it smaller again.
+If necessary, add regularization.
+Keep an eye on the learning curves and make sure you don't lose any validation accuracy.
 
-   **4. Optimize and regularize
+5. Production
++++++++++++++
 
-   Probably your network is overfitting by now. Gradually make it smaller again.
-   If necessary, add regularization.
-   Keep an eye on the learning curves and make sure you don't lose any validation accuracy.
-
-   **5. Production**
-
-   Save the model, version it and observe how it performs in production.
+Save the model, version it and observe how it performs in production.
 
 
 Activation Functions
@@ -89,8 +79,6 @@ MSE                                   for regression tasks
 hinge loss                            penalizes wrong classifications
 triplet loss                          used in some image classification tasks
 ================================      =======================================
-
-
 
 
 Regularizing Deep Neural Networks
@@ -146,17 +134,15 @@ In Keras, add BatchNorm after the activation:
    `Batch Normalization in Neural Networks <https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c>`__
 
 
-.. topic:: The Vanishing Gradient Problem
+The Vanishing Gradient Problem
+++++++++++++++++++++++++++++++
 
-   It is possible to train an ANN using a sigmoid activation function
-   and Gradient Descent. For bigger networks, this approach will
-   likely run into the **Vanishing Gradient Problem**.
-
-   In the Vanishing Gradient Problem, the gradients during backpropagation become very small in the early layers. The training will then take very long.
-
-   The sigmoid function is very prone to the vanishing gradient problem.
-
-   The root cause of this problem is that the variance of the inputs and outputs is different.
+It is possible to train an ANN using a sigmoid activation function
+and Gradient Descent. For bigger networks, this approach will
+likely run into the **Vanishing Gradient Problem**.
+In the Vanishing Gradient Problem, the gradients during backpropagation become very small in the early layers. The training will then take very long.
+The sigmoid function is very prone to the vanishing gradient problem.
+The root cause of this problem is that the variance of the inputs and outputs is different.
 
 
 Dropout
@@ -181,11 +167,9 @@ Add Dropout layers before the activation:
    Activation('relu'),
    ...
 
-.. container:: banner question
+.. hint::
 
-   How many neurons to drop?
-
-.. highlights::
+   **How many neurons to drop?**
 
    As a rule of thumb:
 
@@ -203,20 +187,10 @@ Add Dropout layers before the activation:
    -  Data Augmentation (with image data)
 
 
-.. container:: banner challenge2
+Improve and regularize an MNIST model
+-------------------------------------
 
-   Improve an MNIST model
-
-.. highlights::
-
-   -  train your neural network using a validation set
-   -  compare different hyperparameters, see which work best
-   -  achieve at least 95% accuracy
-
-
-.. container:: banner challenge2
-
-   Regularize a MNIST model
+**Goal: achieve at least 95% accuracy on the validation set.**
 
 Step 1
 ++++++
@@ -250,24 +224,16 @@ Step 5
 
 -  Add dropout to every hidden layer and try again. Does it help?
 
-----
-
-.. container:: banner reading
-
-   Further Reading
-
-.. highlights::
+.. seealso::
 
    -  `Batch Normalization <https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c>`__
    -  `Which order should your layers be in? <https://forums.fast.ai/t/order-of-layers-in-model/1261/3>`__
 
-.. container:: banner recap
 
-   Reflection questions
+Reflection questions
+--------------------
 
-.. highlights::
-
-   -  How many neurons do you need in the output layer if you want to classify email into spam/not spam?
-   -  What activation function would you need in the output layer of a spam classifier?
-   -  How many neurons would you need in the output layer if you want to predict the price of houses from their features?
-   -  Is it okay to initialize all the weights to the same value as long as that value is selected randomly?
+-  How many neurons do you need in the output layer if you want to classify email into spam/not spam?
+-  What activation function would you need in the output layer of a spam classifier?
+-  How many neurons would you need in the output layer if you want to predict the price of houses from their features?
+-  Is it okay to initialize all the weights to the same value as long as that value is selected randomly?
