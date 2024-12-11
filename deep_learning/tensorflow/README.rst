@@ -11,18 +11,26 @@ Next to **PyTorch (Meta)** it is one of the big Deep Learning libraries.
 
 One key advantage of TensorFlow is that it works on many platforms, including GPUs, computing clusters, embedded devices, web browsers and phones. 
 
+Install TensorFlow
+------------------
 
-Download MNIST Data
--------------------
+The TensorFlow library can be installed with `pip`:
+
+::
+
+   pip install tensorflow
+
+Download Fashion MNIST Data
+---------------------------
 
 The MNIST dataset contains images of 60,000 handwritten digits.
 It is a great example to experiment with TensorFlow:
 
 .. code:: python3
 
-   from tensorflow.keras.datasets import mnist
+   from tensorflow.keras.datasets.fashion_mnist import load_data
 
-   (Xtrain, ytrain), (Xtest, ytest) = mnist.load_data()
+   (Xtrain, ytrain), (Xtest, ytest) = load_data()
 
 To plot some of the digits use:
 
@@ -31,10 +39,20 @@ To plot some of the digits use:
    from matplotlib import pyplot as plt
 
    for i in range(25):
-         plt.subplot(5, 5, i+1)
-         plt.imshow(Xtrain[i], cmap=plt.cm.Greys)
-         plt.axis('off')
+      plt.subplot(5, 5, i+1)
+      plt.imshow(Xtrain[i], cmap=plt.cm.Greys)
+      plt.imshow(Xtrain[i], cmap="gray")
+      plt.xticks([])
+      plt.yticks([])
 
+Here are the labels for all 10 categories:
+
+.. code:: python3
+
+   LABELS = "t-shirt,trouser,pullover,dress,coat,sandal,shirt,sneaker,bag,boot".split()
+
+Preparation
+-----------
 
 You may want to one-hot encode the target column:
 
@@ -49,8 +67,8 @@ To train a Fully Connected ANN, you need to reshape X:
 
 .. code:: python3
    
-   Xtrain = Xtrain.reshape(60000, 784)
-   Xtest = Xtest.reshape(10000, 784)
+   Xtrain = Xtrain.reshape(60000, 28 * 28)
+   Xtest = Xtest.reshape(10000, 28 * 28)
 
 
 Training a Neural Network
@@ -61,32 +79,28 @@ Training a Neural Network
    from tensorflow.keras.models import Sequential
    from tensorflow.keras.layers import Dense, Activation
    from tensorflow.keras import backend as K
-   from sklearn.datasets import make_moons
-   from matplotlib import pyplot as plt
    import numpy as np
 
 
    K.clear_session()
 
    m = Sequential([
-      Dense(10, activation='relu', input_shape=(784,)),
-      Dense(10, activation='relu')
-      Dense(1, activation='sigmoid')
+       k.Input(shape=(28 * 28,)),
+       Dense(units=10, activation="sigmoid"),
+       Dense(units=10, activation="softmax"),
    ])
-
    # builds a computation graph internally
-   m.compile(optimizer='adam',
-            loss='binary_crossentropy',
-            metrics=['accuracy'])
+   m.compile(optimizer="adam",
+             loss="categorical_crossentropy",
+             metrics=["accuracy"])
 
    # inspect all layers
    print(m.summary())
 
    # train the model
-   h  = m.fit(X, y, epochs=100, batch_size=50, validation_split=0.2)
+   history = m.fit(X, y, batch_size=32, epochs=10, validation_split=0.2)
    print(h.history['loss'].shape)
-   print(h.history['val_loss'].shape)
-
+   
    # plot the learning curve
    plt.plot(h.history['loss'])
 
