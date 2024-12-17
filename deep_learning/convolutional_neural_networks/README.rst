@@ -5,17 +5,11 @@ Convolutional Neural Networks
 =============================
 
 
-.. container:: banner warmup
+.. image:: cnn_face.png
 
-   Face recognition
+The image shows a single convolutional filter that detects eyes.
 
-.. highlights::
-
-   .. image:: cnn_face.png
-
-   The image shows a single convolutional filter that detects eyes.
-
-   How would the weights look like in a filter that detects a mouth?
+How would the weights look like in a filter that detects a mouth?
 
 
 
@@ -107,27 +101,16 @@ Some hyperparameters of a convolutional layer are:
 Convolutional Layers with two dimensions are the most common, but 1D and 3D layers also exist (useful for processing audio/video).
 
 
+Recap Questions
+---------------
 
-.. container:: banner reading
+-  What advantages does a CNN have over fully connected layers for image classification?
+-  Why do you use max pooling layers?
+-  What do you need to change to use a CNN on a color input image?
+-  What does the `Flatten()` layer do?
 
-   Links
 
-.. highlights::
+.. seealso::
 
-   -  `Interactive visualization of a CNN <http://scs.ryerson.ca/~aharley/vis/conv/flat.html>`__
+   -  `Interactive visualization of a CNN <https://adamharley.com/nn_vis/>`__
    -  `Interpretable CNNs <https://distill.pub/2018/building-blocks/>`__
-
-   .. youtube:: FTr3n7uBIuE
-
-----
-
-.. container:: banner recap
-
-   Recap Questions
-
-.. highlights::
-
-   -  What advantages does a CNN have over fully connected layers for image classification?
-   -  Why do you use max pooling layers?
-   -  What do you need to change to use a CNN on a color input image?
-   -  What does the `Flatten()` layer do?

@@ -19,19 +19,16 @@ Rules of the **Object Localization** task:
 4. There are `1000 object categories <http://image-net.org/challenges/LSVRC/2014/browse-synsets>`__
 
 
-.. container:: banner warmup
+ImageNet Models
+---------------
 
-   ImageNet Models
+Take a look at the ImageNet competition results on `paperswithcode.com <https://www.paperswithcode.com/sota/image-classification-on-imagenet>`__ .
 
-.. highlights::
+Find **VGG-19**, **Inception V3** and **ECA-Net (MobileNetV2)**
 
-   Take a look at the ImageNet competition results on `paperswithcode.com <https://www.paperswithcode.com/sota/image-classification-on-imagenet>`__ .
-
-   Find **VGG-19**, **Inception V3** and **ECA-Net (MobileNetV2)**
-
-   -  which model performed best?
-   -  which model has the most / least parameters?
-   -  what problems would you expect when predicting 1000 categories in photographs?
+-  which model performed best?
+-  which model has the most / least parameters?
+-  what problems would you expect when predicting 1000 categories in photographs?
 
 
 The VGG-16 Architecture
@@ -46,7 +43,6 @@ image from `everybodywiki <https://en.everybodywiki.com/VGG_Net>`__ (CC BY-SA 3.
 
 **gray:** CNN layers, **red:** pooling layers, **blue:** dense layers, **green:** softmax
 
-----
 
 VGG-16 is good model to understand the structure of an industry-scale CNN.
 It consists of:
@@ -140,13 +136,8 @@ and use Pillow to cut out a square you are interested in:
 The preprocessing and prediction on `im3` is the same as above.
 
 
+.. seealso::
 
-.. container:: banner reading
-
-   Further Reading
-
-.. highlights::
-
-   -  `ImageNet website <http://image-net.org/challenges/LSVRC/2017/>`__
-   -  `the original VGG paper <https://arxiv.org/abs/1409.1556>`__
-   -  `CNN catches up with dermatologists recognizing melanoma <https://academic.oup.com/annonc/advance-article/doi/10.1093/annonc/mdy166/5004443>`__
+-  `Pretrained models in Keras <https://keras.io/api/applications/>`__
+-  `ImageNet website <http://image-net.org>`__
+-  `the original VGG paper <https://arxiv.org/abs/1409.1556>`__

@@ -71,6 +71,7 @@ Deep Learning
    deep_learning/tensorflow/README.rst
    deep_learning/training_strategies/README.rst
    deep_learning/convolutional_neural_networks/README.rst
+   deep_learning/convolutional_neural_networks/pretrained.rst
    deep_learning/transfer_learning/README.rst
    deep_learning/recurrent_neural_networks/README.rst
    deep_learning/bag_of_words/README.rst
