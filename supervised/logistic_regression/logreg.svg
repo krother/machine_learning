@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="150mm"
+   viewBox="0 0 210 150"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logreg.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="471.31708"
+     inkscape:cy="306.69884"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-147)">
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:connector-curvature="0"
+       id="path1038"
+       d="M 179.3762,187.30861 H 47.825326"
+       style="fill:#000000;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5874999, 1.5874999;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49990606;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path817"
+       sodipodi:sides="3"
+       sodipodi:cx="47.473044"
+       sodipodi:cy="179.49487"
+       sodipodi:r1="2.8842361"
+       sodipodi:r2="1.442118"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 49.970867,180.93699 -2.497822,0 -2.497821,0 1.24891,-2.16318 1.248911,-2.16317 1.248911,2.16317 z"
+       inkscape:transform-center-y="-0.72105973"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       d="m 64.793201,67.731226 -2.497821,0 -2.497822,0 1.248911,-2.163177 1.248911,-2.163177 1.24891,2.163177 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.5707963"
+       sodipodi:arg1="0.52359878"
+       sodipodi:r2="1.442118"
+       sodipodi:r1="2.8842361"
+       sodipodi:cy="66.289108"
+       sodipodi:cx="62.29538"
+       sodipodi:sides="3"
+       id="path819"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.49990606;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="star"
+       transform="rotate(90,24.808566,223.41646)"
+       inkscape:transform-center-x="-0.72106011"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g872"
+       transform="translate(26.229827,50.314383)"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 47.473046,180.39434 v 80.50892 H 182.41055"
+       id="path815"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5874999, 1.5874999;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 179.3762,256.10028 H 47.825326"
+       id="path883"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1361"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,64.633929,173.83631)"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion1357"><rect
+           id="rect1355"
+           width="600.71429"
+           height="94.285713"
+           x="-20"
+           y="-82.356575" /></flowRegion><flowPara
+         id="flowPara1359"
+         style="font-size:26.66666794px">Logistic Regression</flowPara></flowRoot>    <circle
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1036"
+       cx="61.682518"
+       cy="255.24921"
+       r="2.7367098" />
+    <circle
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle1042"
+       cx="95.358475"
+       cy="255.24921"
+       r="2.7367098" />
+    <circle
+       r="2.7367098"
+       cy="255.24921"
+       cx="147.47603"
+       id="circle1044"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       r="2.7367098"
+       cy="187.36275"
+       cx="84.934959"
+       id="circle1048"
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       r="2.7367098"
+       cy="187.36275"
+       cx="115.40369"
+       id="circle1050"
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 179.53962,256.17856 c -130.154006,0 1.72048,-68.26499 -132.291667,-68.26499"
+       id="path827"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle1046"
+       cx="165.38309"
+       cy="187.36275"
+       r="2.7367098" />
+    <flowRoot
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       transform="matrix(0.26458333,0,0,0.26458333,41.992392,232.04464)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot42"
+       xml:space="preserve"><flowRegion
+         id="flowRegion38"><rect
+           y="-82.356575"
+           x="-20"
+           height="94.285713"
+           width="600.71429"
+           id="rect36" /></flowRegion><flowPara
+         style="font-size:26.66666794px"
+         id="flowPara40">y</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot50"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,121.55637,282.69345)"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion46"><rect
+           id="rect44"
+           width="600.71429"
+           height="94.285713"
+           x="-20"
+           y="-82.356575" /></flowRegion><flowPara
+         id="flowPara48"
+         style="font-size:26.66666794px">x (Age)</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot58"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,20.07629,202.37773)"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion54"><rect
+           id="rect52"
+           width="600.71429"
+           height="94.285713"
+           x="-20"
+           y="-82.356575" /></flowRegion><flowPara
+         id="flowPara56"
+         style="font-size:24.00000191px">1 (alive)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       transform="matrix(0.26458333,0,0,0.26458333,20.878099,270.79873)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot66"
+       xml:space="preserve"><flowRegion
+         id="flowRegion62"><rect
+           y="-82.356575"
+           x="-20"
+           height="94.285713"
+           width="600.71429"
+           id="rect60" /></flowRegion><flowPara
+         style="font-size:24.00000191px"
+         id="flowPara64">0 (dead)</flowPara></flowRoot>    <circle
+       r="2.7367098"
+       cy="255.24921"
+       cx="157.36501"
+       id="circle68"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle70"
+       cx="171.79756"
+       cy="255.24921"
+       r="2.7367098" />
+    <circle
+       r="2.7367098"
+       cy="255.24921"
+       cx="126.89629"
+       id="circle72"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle74"
+       cx="117.80913"
+       cy="255.24921"
+       r="2.7367098" />
+    <circle
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle76"
+       cx="143.19974"
+       cy="255.24921"
+       r="2.7367098" />
+    <circle
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle78"
+       cx="101.77294"
+       cy="187.36275"
+       r="2.7367098" />
+    <circle
+       r="2.7367098"
+       cy="187.36275"
+       cx="94.823936"
+       id="circle80"
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle82"
+       cx="55.535316"
+       cy="187.36275"
+       r="2.7367098" />
+    <circle
+       r="2.7367098"
+       cy="187.36275"
+       cx="63.018864"
+       id="circle84"
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle86"
+       cx="79.589577"
+       cy="187.36275"
+       r="2.7367098" />
+    <circle
+       r="2.7367098"
+       cy="187.36275"
+       cx="151.48508"
+       id="circle88"
+       style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:#ff2a2a;stroke:#ff0000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 214.69048,185.68602 v 83.53273"
+       id="path120"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/kristian/train_test1.png"
+       transform="matrix(0.26458333,0,0,0.26458333,128.17095,229.02083)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot128"
+       xml:space="preserve"><flowRegion
+         id="flowRegion124"><rect
+           y="-82.356575"
+           x="-20"
+           height="117.14285"
+           width="589.28571"
+           id="rect122" /></flowRegion><flowPara
+         style="font-size:26.66666794px"
+         id="flowPara126">decision</flowPara><flowPara
+         style="font-size:26.66666794px"
+         id="flowPara130">boundary</flowPara></flowRoot>    <circle
+       r="2.7367098"
+       cy="255.24921"
+       cx="73.246864"
+       id="circle132"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.75848246;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
