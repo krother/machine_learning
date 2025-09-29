@@ -9,7 +9,7 @@ Machine Learning Courses
 -  `ML Course on Udacity <https://www.udacity.com/course/intro-to-machine-learning--ud120#>`__ – by Katie Malone and Sebastian Thrun
 -  `Machine Learning for Beginners <https://github.com/microsoft/ML-For-Beginners>`__ – by Microsoft
 -  `Machine Learning Caltech <https://work.caltech.edu/telecourse.html>`__ – video lectures on many ML topics
--  `Deep Learning Specialization on Coursera <https://www.coursera.org/specializations/deep-learning>`__ – series of short courses
+-  `Deep Learning Playlist <https://www.youtube.com/playlist?list=PLgPbN3w-ia_PeT1_c5jiLW3RJdR7853b9>`__ – Lectures by Professor Bryce
 -  `Fast AI Course <https://course.fst.ai/>`__
 -  `NVidia Computer Vision Course <https://developer.nvidia.com/dli/onlinelabs>`__
 -  `Andreas Mullers Scikit Lectures <https://www.youtube.com/andreasmueller>`__
