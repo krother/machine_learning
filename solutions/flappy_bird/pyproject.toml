@@ -1,0 +1,13 @@
+[project]
+name = "rf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flappy-bird-gymnasium>=0.4.0",
+    "gymnasium[atari]>=1.2.2",
+    "swig>=4.4.0",
+    "tensorflow>=2.20.0",
+    "torch>=2.9.1",
+]
