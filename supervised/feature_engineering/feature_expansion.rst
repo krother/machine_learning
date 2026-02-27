@@ -4,7 +4,7 @@ Feature Expansion
 Polynomial terms
 ++++++++++++++++
 
-Polynomial terms ar extra features that are the square or higher powers of an existing feature.
+Polynomial terms are extra features that are the square or higher powers of an existing feature.
 
 .. code:: python3
 

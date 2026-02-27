@@ -152,7 +152,7 @@ We will see some of them later in the course.
 Log-Transform to predict Count Data
 -----------------------------------
 
-Count data is often evaluted with the `Root Mean Squared Log Error (RMSLE) <https://www.kaggle.com/c/bike-sharing-demand/overview/evaluation>`_.
+Count data is often evaluated with the `Root Mean Squared Log Error (RMSLE) <https://www.kaggle.com/c/bike-sharing-demand/overview/evaluation>`_.
 
 The purpose of this metric is to treat the error in relation to the absolute value.
 If the predicted value is 100, an error of 10 does not matter that much,

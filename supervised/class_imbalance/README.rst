@@ -47,7 +47,7 @@ Class Weights
 During training, each observation is multiplied by a weight that is inversely
 proportional to the overall class frequency. This increases or decreases the
 cost of miss-classification during training. Making a false guess for an observation
-from the minority class becomes fare more costly! This procedure is also called
+from the minority class becomes far more costly! This procedure is also called
 **cost sensitive learning**.
 
 In scikit-learn we can apply weighting by setting the ``class_weights`` argument to ``'balanced'``:

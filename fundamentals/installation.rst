@@ -2,8 +2,8 @@
 Installation Checklist:
 =======================
 
-* Python 3.9 or higher (the Anaconda distribution is great)
-* a text editor (VSCode or Spyder (in Anaconda))
+* Python 3.12 or higher.
+* a text editor (preferably Visual Studio Code)
 * install libraries (file on MS Teams) with:
 
   pip install -r requirements.txt
@@ -12,12 +12,6 @@ Installation Checklist:
 
   jupyter notebook
 
-  (or from the Anaconda Navigator)
+.. seealso::
 
-Some useful commands:
----------------------
-pip install -r requirements.txt
-
-python3 -m pip install -r requirements.txt
-
-pip freeze
+   `Python installation guide <https://www.academis.eu/dungeon_explorer/chapters/installation.html>`__

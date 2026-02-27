@@ -13,7 +13,7 @@ They contain artificial x and y data
 (and a few common traps).
 
 Download the **first data file** :download:`part1/linear01.csv` .
-Inspect the data using the follwing code:
+Inspect the data using the following code:
 
 .. code:: python3
 

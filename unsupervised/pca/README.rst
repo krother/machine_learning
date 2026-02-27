@@ -64,7 +64,7 @@ Step 1: Calculate the covariance matrix
 
 It is assumed that the variables that have the greatest variance also contain the most information.
 
-To measure the redundancy in the data, we calculate the covriance of each measured variable with each other. This then results in the **covariance matrix C**:
+To measure the redundancy in the data, we calculate the covariance of each measured variable with each other. This then results in the **covariance matrix C**:
 
 .. math::
 

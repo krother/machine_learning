@@ -1,5 +1,9 @@
-# adopted from https://github.com/bstriner/keras-adversarial
+"""
+adopted from https://github.com/bstriner/keras-adversarial
+"""
+import numpy as np
 
+import matplotlib.pyplot as plt
 from tensorflow import keras
 from keras.datasets import mnist
 from keras.layers import Input, Dense, Reshape, Flatten, Dropout, multiply
@@ -9,11 +13,9 @@ from keras.layers import UpSampling2D, Conv2D
 from keras.models import Sequential, Model
 from keras.optimizers import Adam
 
-import matplotlib.pyplot as plt
 
-import numpy as np
 
-class ACGAN():
+class ACGAN:
     def __init__(self):
         # Input shape
         self.img_rows = 28

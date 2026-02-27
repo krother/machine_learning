@@ -32,9 +32,9 @@ concept                 description
 Confusion Matrix        Shows the performance of a classifier in a single table
 Accuracy                The percentage of correct guesses
 Precision               Percentage of positive classified observations that are positive
-Recall                  Percentage of positive observations correctly classified as positve
+Recall                  Percentage of positive observations correctly classified as positive
 F1-Score                (Harmonic) average of precision and recall
-ROC-Curve               Line-plot of the true positive against the false positive rate for different treshold values
+ROC-Curve               Line-plot of the true positive against the false positive rate for different threshold values
 AUC                     Area under the curve: Measures the relative area under the ROC-curve
 ======================= ================================
 
@@ -71,7 +71,7 @@ Version ``1.x`` of sklearn also has a convenient function to plot confusion matr
 By default, the matrix contains absolute counts.
 
 The parameter ``normalize`` converts the values to percentages.
-It be set to ``true`` or ``pred`` so that the rows and columns add up to 1.0,
+It should be set to ``True`` or ``pred`` so that the rows and columns add up to 1.0,
 or to ``all`` in which case the sum of the entire matrix will be 1.0.
 
 

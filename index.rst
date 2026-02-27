@@ -19,7 +19,7 @@ Fundamentals
    fundamentals/what_is_ml/README.rst
    fundamentals/training_models/README.rst
    fundamentals/libraries.rst
-   fundamentals/installing.rst
+   fundamentals/installation.rst
 
 Unsupervised Learning
 ---------------------
@@ -91,7 +91,7 @@ Appendix
 
 .. topic:: License
 
-   © 2024 Dr. Kristian Rother and everybody in :download:`LICENSE`.
+   © 2026 Dr. Kristian Rother and everybody in :download:`LICENSE`.
 
    Usable under the conditions of the Creative Commons Attribution Share-alike License 4.0 (CC-BY-SA 4.0).
    See `creativecommons.org <https://creativecommons.org/licenses/by-sa/4.0/>`__ for details

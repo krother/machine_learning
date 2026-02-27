@@ -3,7 +3,7 @@
 Random Forests
 ==============
 
-**Random Forests are models combining many Decsion Trees. They use the bagging strategy.**
+**Random Forests are models combining many Decision Trees. They use the bagging strategy.**
 
 Bagging vs Boosting
 -------------------
