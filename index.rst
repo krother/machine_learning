@@ -76,7 +76,7 @@ Deep Learning
    deep_learning/recurrent_neural_networks/README.rst
    deep_learning/bag_of_words/README.rst
    deep_learning/word_embeddings/README.rst
-   deep_learning/gan/yolo.rst
+   deep_learning/yolo.rst
    deep_learning/gan/gan.rst
 
 
