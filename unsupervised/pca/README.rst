@@ -100,11 +100,9 @@ Code Example
 
 .. literalinclude:: ex_pca.py
 
-.. container:: banner debug
-
-   Caveats
-
-.. highlights::
+.. note::
+   
+   **Caveats**
 
    -  **Your data needs to have a mean of zero.** Otherwise the principal components will simply represent the mean.
    -  You need to set the number of principal components up front
@@ -113,23 +111,15 @@ Code Example
    -  The transformed data loses information
 
 
-.. container:: banner reading
+Recap Questions
+---------------
 
-   Links
+- Can you reverse the transformation of a PCA?
+- What are the model parameters of a PCA?
+- What are the hyperparameters of a PCA?
+- Can you use PCA on a highly non-linear dataset?
+- If you use PCA to reduce a 1000-dimensional dataset, how many dimensions will the transformed data have if you want to have an explained variance of 95%?
 
-.. highlights::
+.. seealso::
 
-   -  `PCA tutorial <https://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf>`__
-   -  `More on the math behind PCA <http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf>`__
-
-.. container:: banner recap
-
-   Recap Questions
-
-.. highlights::
-
-   - Can you reverse the transformation of a PCA?
-   - What are the model parameters of a PCA?
-   - What are the hyperparameters of a PCA?
-   - Can you use PCA on a highly non-linear dataset?
-   - If you use PCA to reduce a 1000-dimensional dataset, how many dimensions will the transformed data have if you want to have an explained variance of 95%?
+   `Eigenvectors by 3blue1brown <https://www.youtube.com/watch?v=PFDu9oVAE-g>`__
